@@ -1,8 +1,8 @@
-id: example-import
+id: CS426-DOJO
 
-name: Example Import Dojo
+name: CS426-DOJO
 
-type: example
+type: homework
 
 modules:
 
@@ -21,9 +21,3 @@ modules:
           module: world
           challenge: earth
 
-      - import:
-          dojo: example
-          module: world
-          challenge: mars
-        name: Martian Planet
-        description: This is a martian planet... mars.
