@@ -4,13 +4,10 @@ name: CS426-DOJO
 
 type: homework
 
-modules:
-  id: CS426
-  name: CS426DOJO
-  descriptions:
+descriptions:
     This is a homework DOJO for Purdue University course CS426 "Computer Security"
-
-  challenges:
+ 
+challenges:
   
   - import:
     dojo: program-security
