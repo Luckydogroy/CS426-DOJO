@@ -6,7 +6,7 @@ type: homework
 
 modules:
   id: CS426
-  name: CS426-DOJO
+  name: CS426DOJO
   descriptions:
     This is a homework DOJO for Purdue University course CS426 "Computer Security"
 
@@ -14,5 +14,5 @@ modules:
   
   - import:
     dojo: program-security
-    module: 
+    module: reverse-engineering
     challenge: level-1-0
