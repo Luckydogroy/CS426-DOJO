@@ -12,5 +12,5 @@ challenges:
   
   - import:
     dojo: program-security
-    module: reverse-engineering
+    module: format-string-exploits
     challenge: level-1-0
