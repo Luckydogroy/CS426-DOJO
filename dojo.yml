@@ -7,10 +7,37 @@ type: homework
 descriptions:
     This is a homework DOJO for Purdue University course CS426 "Computer Security"
 
- 
-challenges:
-  
-  - import:
-    dojo: program-security
-    module: format-string-exploits
-    challenge: level-1-0
+type: topic
+
+files:
+ - type: download
+   url: "https://www.dropbox.com/scl/fi/zymtq9sit5qeko0l81ph2/vmlinux3?rlkey=eh89lpb19dhhuxfw7ifvckut1&dl=1"
+   path: "kernel-exploitation/files/3/vmlinux"
+ - type: download
+   url: "https://www.dropbox.com/scl/fi/cfln31ihejxyco1xb4j2o/vmlinux2?rlkey=h2tt3yuo5xrw56hquam98y8gh&dl=1"
+   path: "kernel-exploitation/files/2/vmlinux"
+ - type: download
+   url: "https://www.dropbox.com/scl/fi/uhhjp8yf65p81p31rql1e/vmlinux1?rlkey=jybroi9nsya54ffrevmnk89hg&dl=1"
+   path: "kernel-exploitation/files/1/vmlinux"
+ - type: download
+   url: "https://www.dropbox.com/scl/fi/hkwgmkajzw2rzas068g66/vmlinux0?rlkey=q5kkd5br7ize6n1002ghpprz3&dl=1"
+   path: "kernel-exploitation/files/0/vmlinux"
+
+modules:
+- id: return-oriented-programming
+  name: Return Oriented Programming
+  description: |
+    Picture yourself as a digital maestro, orchestrating a symphony of code in a vast digital realm.
+    However, there’s a twist: you don’t get to pen down your own notes.
+    Instead, you're given a legacy of existing code snippets, scattered across the system.
+    This is the essence of Return Oriented Programming (ROP) exploits! Using nothing but the remnants of the system’s own code, you craft a cunning composition that dances to your own tune, bypassing modern security measures with elegance and stealth.
+
+    Each snippet is like a musical phrase, ending in a "return" instruction, whisking you off to the next snippet in your clandestine concerto.
+    With each leap and bound, you weave a nefarious narrative, circumventing security checks and executing unauthorized actions, all while under the unsuspecting nose of the system’s defenses.
+
+    ROP is not just a hack; it’s a masterpiece of unauthorized orchestration, a ballet of borrowed instructions, choreographed with precision to achieve your clandestine objectives.
+    With ROP, you step into a realm where every byte is a beat, and every return is a rhythm, embarking on an exhilarating journey of exploitation and discovery.
+  challenges:
+  - id: level-1-0
+    name: level1.0
+    description: Overwrite a return address to trigger a win function!
