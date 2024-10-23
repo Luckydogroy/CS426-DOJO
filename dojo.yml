@@ -11,7 +11,7 @@ description:
 
 modules:
 - id: web-security
-challenges:
+  challenges:
   - id: sqli-pin
     name: SQLi 1
   - id: level-4
